@@ -1,7 +1,7 @@
 var input = require("fs").readFileSync("/dev/stdin", "utf8");
 var lines = input.split("\n");
 
-// -- forma usada para retirar mais de uma variável quando trazida em linha no stdin
+// -- Destructures multiple values from a single stdin line
 let [product1Code, product1Quantity, product1Price] = lines[0].split(" ");
 let [product2Code, product2Quantity, product2Price] = lines[1].split(" ");
 
